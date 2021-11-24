@@ -1340,12 +1340,22 @@ body.is-preload #bg:before {
 	}
 }
 
+.static {
+	position:absolute;
+	background: white;
+}
+
+.static:hover {
+	opacity:0;
+}
 
 /* Header */
 #paragraph p {
 	width: 700px;
 	height: 50px;
 }
+
+
 #header {
 	display: -moz-flex;
 	display: -webkit-flex;
